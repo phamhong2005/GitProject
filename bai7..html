@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" name="" id="a">
+<button onclick="tuoi()"> Nhấn</button>
+<p id="b"></p>
+<script>
+    function tuoi() {
+        let a = document.getElementById("a").value
+        if (a > 0) {
+            if (a < 120) {
+                document.getElementById("b").innerHTML = a + ": là số tuổi của con người"
+
+            } else {
+                document.getElementById("b").innerHTML = a + " :không phải số tuổi cua con người"
+            }
+        }
+
+
+    }
+
+</script>
+</body>
+</html>
